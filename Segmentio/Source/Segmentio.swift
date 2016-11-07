@@ -342,7 +342,7 @@ open class Segmentio: UIView {
     
     // MARK: - Actions:
     // MARK: Reload segmentio
-    fileprivate func reloadSegmentio() {
+    open func reloadSegmentio() {
         segmentioCollectionView?.reloadData()
         scrollToItemAtContext()
         moveShapeLayerAtContext()
